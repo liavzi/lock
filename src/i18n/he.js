@@ -2,26 +2,26 @@ export default {
   error: {
     forgotPassword: {
       too_many_requests:
-        'You have reached the limit on password change attempts. Please wait before trying again.',
-      'lock.fallback': "We're sorry, something went wrong when requesting the password change.",
+        'עברת את מספר הפעמים המותר לניסיון שינוי סיסמא. אנא המתן לפני שתנסה שוב',
+      'lock.fallback': "אנו מצטערים, משהו השתבש בניסיון לשינוי סיסמא",
       enterprise_email:
         "Your email's domain is part of an Enterprise identity provider. To reset your password, please see your security administrator."
     },
     login: {
-      blocked_user: 'The user is blocked.',
-      invalid_user_password: 'Wrong credentials.',
-      'lock.fallback': "We're sorry, something went wrong when attempting to log in.",
-      'lock.invalid_code': 'Wrong code.',
-      'lock.invalid_email_password': 'Wrong email or password.',
-      'lock.invalid_username_password': 'Wrong username or password.',
-      'lock.network': 'We could not reach the server. Please check your connection and try again.',
-      'lock.popup_closed': 'Popup window closed. Try again.',
-      'lock.unauthorized': 'Permissions were not granted. Try again.',
+      blocked_user: 'המשתמש חסום.',
+      invalid_user_password: 'פרטי משתמש שגויים.',
+      'lock.fallback': "אנו מצטערים, משהו השתבש בניסיון ההתחברות",
+      'lock.invalid_code': 'קוד שגוי',
+      'lock.invalid_email_password': 'מייל או סיסמא שגויים',
+      'lock.invalid_username_password': 'שם משתמש או סיסמא שגויים',
+      'lock.network': 'לא ניתן להתחבר לשרת. אנא בדוק את החיבור ונסה שוב',
+      'lock.popup_closed': 'החלון סגור . נסה שוב',
+      'lock.unauthorized': 'אין הרשאה. נסה שוב',
       'lock.mfa_registration_required':
         'Multifactor authentication is required but your device is not enrolled. Please enroll it before moving on.',
-      'lock.mfa_invalid_code': 'Wrong code. Please try again.',
+      'lock.mfa_invalid_code': 'קוד שגוי. אנא נסה שוב',
       password_change_required:
-        'You need to update your password because this is the first time you are logging in, or because your password has expired.', // TODO: verify error code
+        'אתה צריך לשנות סיסמא או בגלל שזה הכניסה הראשונה שלך או בגלל שתוקף הסיסמא פג', // TODO: verify error code
       password_leaked:
         'We have detected a potential security issue with this account. To protect your account, we have blocked this login. An email was sent with instruction on how to unblock your account.',
       too_many_attempts: 'Your account has been blocked after multiple consecutive login attempts.',
